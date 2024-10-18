@@ -1,60 +1,64 @@
-E-commerce dApp to sell products without intermediaries 💰
+dApp to hire freelancers who are registered in Talent Protocol 🌊
 
-# 🛍️ Features
+# 🌊 Features
 
+- ✅ **Escrow system with milestones**: Contractor locks funds and when a freelancer completes a task, the contractor releases the funds for that task.
 - 💰 **Multiple payment methods**: Pay with native gas (ETH) or with USDC.
 - 📈 **Revenue dashboard**: Track and analyze your revenue and spending
-- 🤹‍♂️ **Articles media**: Articles can have text, image, audio, video and links
+- 🤹‍♂️ **Work offers media**: Work offers can have text, image, audio, video and links
+
+## 👥 Social features
+
+- 💌 **Messaging**: Private messaging to communicate between freelancer and contractor
 - 🔔 **Notifications**: Receive alerts on activity
-- 💌 **Messaging**: Private messaging to communicate between seller and buyer
 - 🎨 **Profile customization**: Users can customize their profile
+
+## 👨‍🦽 Ease of use
+
 - 📱 **Web 2.5 login**: Social login options with Web2 platforms (Google, Twitter, etc.)
 - 🎧 **Accessibility support**: ARIA compliant for screen readers and other assistive technologies
 
-# 🛍️ Roadmap
+# 🌊 Roadmap
 
 ## 🐣 Phase 1 (MVP)
 
-- ✅ **BasedArticles contract:** To register articles info
-- ✅ **BasedProfile contract:** To register users bio and email
-- ✅ **BasedShop contract:** To manage products and sales
-- ✅ **Article creation tool**
+- ✅ **LancersWorkOffer contract:** To register work offers info
+- ✅ **Lancers contract:** To manage contracts and payments between users
+- ✅ **Work offer creation tool**
 - ✅ **User profile page**
 - ✅ Enable options for sharing on other platforms
-- ✅ Enable bookmarking articles
-- ✅ **Search**: By address, ENS or basename
+- ✅ Enable bookmarking work offers
+- ✅ **Search**: By address, ENS, basename or Talent Protocol name
 - ✅ **Integrate OnchainKit** (Reference: [OnchainKit](https://onchainkit.xyz/)
-- **Individual article viewer**
+- **Escrow system**: Escrow funds and release it as milestones are completed in the job
+- **Individual work offer viewer**
 
-## 💰 Phase 2 (Shop features)
-
-- **Escrow system**: Hold funds until the buyer confirms the purchase
-- **Dashboard Insights**: Track and analyze revenue
-- **Stablecoin payment methods:** Pay with native gas or with `$USDC`. (Reference: [Easy2Pay](https://github.com/luloxi/Easy2Pay))
-- **Categories**: Categorize articles, filter by category and search by category
-
-## 📈 Phase 3 (Indexing and notifications)
+## 📈 Phase 2 (Indexing)
 
 - **Integrate The Graph to index activity** and save RPC calls (Reference: [Bootstrap a Full Stack Modern dapp using the Scaffold-ETH CLI and Subgraph Extension](https://siddhantk08.hashnode.dev/bootstrap-a-full-stack-modern-dapp-using-the-scaffold-eth-cli-and-subgraph-extension) | [The Graph tool for creating a subgraph](https://thegraph.com/docs/en/developing/creating-a-subgraph/))
+- **Search by work offer name**
+- **Categories**: Categorize work offers, filter by category and search by categories)
 - **Notification system**: Receive alerts on activity
-- **Search by article name**
+- **Dashboard Insights**: Track and analyze revenue
 
-## 💬 Phase 4 (Social enhancement)
+## 💬 Phase 3 (Interactions enhancement)
 
-- Enable audio, video and links on articles
-- Enable following users and commenting on products (rating with stars)
+- **Stablecoin payment methods:** Pay with native gas or with `$USDC`. (Reference: [Easy2Pay](https://github.com/luloxi/Easy2Pay))
+- Enable audio, video and links on work offers
+- Enable following users
+- Enable commenting on past gigs (and rating with stars)
 - **Customization**: Allow users to customize their profile appearance
 
-## 💌 Phase 5 (Communication)
+## 💌 Phase 4 (Communication)
 
 - **Direct messages:** Allow users to send private messages to each other
 
-## ✍️ Phase 6 (Gasless activity)
+## ✍️ Phase 5 (Gasless activity)
 
 - **Signatures:** Interact with the platform without paying gas fees
 - **Database:** To store and retrieve EIP 712 signatures (Reference: [SE-2 firebase-auth-extension](https://github.com/ByteAtATime/firebase-auth-extension))
 
-## 👨‍🦽 Phase 7 (Ease of use)
+## 👨‍🦽 Phase 6 (Ease of use)
 
 - **Web 2.5 social login:** Sign up and log in with Google, Twitter, Instagram, etc
 - **Account abstraction**: Interact with the platform without having to sign every interaction.
@@ -62,15 +66,19 @@ E-commerce dApp to sell products without intermediaries 💰
 - **Multi-language support**: Switch between languages
 - **Educational Content**: Include step-by-step guides and tutorials
 
-# 🛍️ Development
+# 🌊 Development
+
+## 📅 Current tasks
+
+Currently this project is being built in public.
+
+📥 To see current development tasks, [see here](https://trello.com/b/r6iJyZtR/basedshop)
 
 ## 🛠️ Technical details
 
 ⚙️ Built using Foundry, NextJS, RainbowKit, Wagmi, Viem, and Typescript,
 
-🔗 To be deployed on Base and/or EVM compatible chains
-
-📥 To see current development tasks, [see here](https://lulox.notion.site/BasedShop-11e13362a5748056b5bfe8bc5d4ff260?pvs=4)
+🔗 To be deployed on Base and/or other EVM compatible chains
 
 ## 📚 Prerequisites
 
