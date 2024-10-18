@@ -22,16 +22,15 @@ dApp to hire freelancers who are registered in Talent Protocol 🌊
 
 ## 🐣 Phase 1 (MVP)
 
-- ✅ **LancersWorkOffer contract:** To register work offers info
-- ✅ **Lancers contract:** To manage contracts and payments between users
-- ✅ **Work offer creation tool**
 - ✅ **User profile page**
-- ✅ Enable options for sharing on other platforms
-- ✅ Enable bookmarking work offers
-- ✅ **Search**: By address, ENS, basename or Talent Protocol name
-- ✅ **Integrate OnchainKit** (Reference: [OnchainKit](https://onchainkit.xyz/)
-- **Escrow system**: Escrow funds and release it as milestones are completed in the job
+- ✅ **Integrate OnchainKit** (Reference: [OnchainKit](https://onchainkit.xyz/))
+- **LancersWorkOffer contract:** To register work offers info
+- **Work offer creation tool**
+- **Lancers contract:** To manage work offers, escrow funds and release it as milestones are completed in the job
+- Enable bookmarking work offers
 - **Individual work offer viewer**
+- Enable options for sharing on other platforms
+- **Search**: By address, ENS, basename or Talent Protocol name
 
 ## 📈 Phase 2 (Indexing)
 
